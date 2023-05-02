@@ -5,7 +5,7 @@ function Index ({ breads }) {
     const display = breads.map((bread, i) => {
         return (
             <li key={i}>
-                <a href={`/breads/${Index}`}>{bread.name}</a>
+                <a href={`/breads/${i}`}>{bread.name}</a>
                 </li>
         )
     })
