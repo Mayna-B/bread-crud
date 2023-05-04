@@ -9,7 +9,8 @@ function New() {
             <a href='/breads/'>
               <button>
                 Home
-                </button></a>
+                </button>
+            </a>
         </div>
         <form action='/breads' method='POST'>
           <label htmlFor="name">Name</label>
