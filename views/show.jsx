@@ -19,7 +19,7 @@ function Show({ bread }) {
         </a>
         <form action={`/breads/${bread.id}?_method=DELETE`} method='POST'>
                 <input type='submit' value='DELETE' />
-            </form>
+        </form>
         <li>
             <a href={'/breads'}>Go home</a>
         </li>
